@@ -1,6 +1,6 @@
 # In This project I used Docker and docker-compose
 # Docker Cmd
-➵ docker build -t <name> <dockerfole_name>
+➵ docker build -t <name> <dockerfole_name> <br>
 ➵ docker run  -d -p 80:80  <image_name>
 # Docker Compose 
 ➵ docker-compose up -d
