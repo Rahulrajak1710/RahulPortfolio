@@ -10,7 +10,7 @@
         <!-- ===== BOX ICONS =====-->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>RahulPortfolio</title>
+        <title>Rahul Rajak - DevOps Engineer Portfolio</title>
         <link rel="shortcut icon" type="emoji" href=""/> 
     </head>
     <body>
@@ -102,23 +102,51 @@
             
             <!--===== ABOUT =====-->
             <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
+                <h2 class="section-title">About Me</h2>
 
                 <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="11111.png" alt="">
+                    <div class="about__content">
+                        <div class="about__img-wrapper">
+                            <div class="about__img">
+                                <img src="11111.png" alt="Rahul Rajak">
+                            </div>
+                            <div class="about__img-bg"></div>
+                        </div>
                     </div>
 
-                    <div>
+                    <div class="about__text-content">
                         <h2 class="about__subtitle">Rahul Rajak</h2>
+                        <p class="about__title-desc">DevOps Engineer & Software Developer</p>
                         
-                        <p class="about__text">I'm Rahul, transitioning from a year of software engineering to DevOps. With a strong foundation in coding and a passion for streamlining processes, I'm eager to optimize deployment workflows and enhance team collaboration. Excited to contribute my skills and learn from this dynamic community.
+                        <p class="about__text">
+                            I'm Rahul, a passionate DevOps engineer with a strong foundation in software engineering. I specialize in building scalable infrastructure, automating deployment workflows, and optimizing cloud solutions. With expertise in containerization, orchestration, and CI/CD pipelines, I'm dedicated to streamlining processes and enhancing team collaboration.
                         </p>
 
+                        <div class="about__stats">
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="1">1</div>
+                                <p class="stat-label">Year Experience</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="15">15</div>
+                                <p class="stat-label">Technologies</p>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="7">7</div>
+                                <p class="stat-label">Certifications</p>
+                            </div>
+                        </div>
+
                         <div class="about__social">
-                            <a href="https://www.linkedin.com/in/rahul-rajak-790b96193/" class="about__social-icon1"><i class='bx bxl-linkedin' ></i></a>
-                            <a href="https://github.com/Rahulrajak1710" class="about__social-icon2"><i class='bx bxl-github' ></i></a>
-                            <a href="https://www.instagram.com/rajak8444/" class="about__social-icon3"><i class='bx bxl-instagram' ></i></a>
+                            <a href="https://www.linkedin.com/in/rahul-rajak-790b96193/" class="about__social-link" title="LinkedIn">
+                                <i class='bx bxl-linkedin'></i>
+                            </a>
+                            <a href="https://github.com/Rahulrajak1710" class="about__social-link" title="GitHub">
+                                <i class='bx bxl-github'></i>
+                            </a>
+                            <a href="https://www.instagram.com/rajak8444/" class="about__social-link" title="Instagram">
+                                <i class='bx bxl-instagram'></i>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -126,154 +154,369 @@
 
             <!--===== SKILLS =====-->
             <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+                <h2 class="section-title">Skills & Expertise</h2>
 
                 <div class="skills__container bd-grid">
-                    <div class="skills__box">
-                        <h3 class="skills__subtitle">Technical</h3>
-                        <span class="skills__name">Java</span>
-                        <span class="skills__name">Python</span>
-                        <span class="skills__name">Sql</span>
-                        <span class="skills__name">OOPS</span>
-                        <span class="skills__name">Linux </span>
-                        <span class="skills__name">amazon Web Sever (aws)</span>
-                        <span class="skills__name">Git and GitHub</span>
-                        <span class="skills__name">Data Structures and Algorithm</span>
-                        <span class="skills__name">Jira </span>
-                        <span class="skills__name">Jenkins (CI/CD)</span>
-                        <span class="skills__name">Docker and DockerHub</span>
-                        <span class="skills__name">Kubernetes </span>
-                        <span class="skills__name">Shell Scripting </span>
-                        <span class="skills__name">Terraform </span>
-                        <span class="skills__name">Grafana and Prometheus  </span>
-                       
-                        
-                        
-                       
+                    <!-- DevOps & Cloud -->
+                    <div class="skills__category">
+                        <div class="skills__header">
+                            <i class='bx bxs-cloud'></i>
+                            <h3>DevOps & Cloud</h3>
+                        </div>
+                        <div class="skills__list">
+                            <div class="skill-item" style="--delay: 0s">
+                                <span class="skill-name">Docker & DockerHub</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 0.1s">
+                                <span class="skill-name">Kubernetes</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 0.2s">
+                                <span class="skill-name">AWS</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 0.3s">
+                                <span class="skill-name">Terraform</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 75%"></div></div>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 0.4s">
+                                <span class="skill-name">Linux</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 88%"></div></div>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="skills__img">
-                        <img src="IMG-SRC/skills.jpg" alt="">
+                    <!-- CI/CD & Tools -->
+                    <div class="skills__category">
+                        <div class="skills__header">
+                            <i class='bx bx-git-branch'></i>
+                            <h3>CI/CD & Tools</h3>
+                        </div>
+                        <div class="skills__list">
+                            <div class="skill-item" style="--delay: 0.5s">
+                                <span class="skill-name">Jenkins</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 0.6s">
+                                <span class="skill-name">Git & GitHub</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 92%"></div></div>
+                                <span class="skill-percent">92%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 0.7s">
+                                <span class="skill-name">Grafana & Prometheus</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 0.8s">
+                                <span class="skill-name">Jira</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 0.9s">
+                                <span class="skill-name">Shell Scripting</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 87%"></div></div>
+                                <span class="skill-percent">87%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Programming Languages -->
+                    <div class="skills__category">
+                        <div class="skills__header">
+                            <i class='bx bxs-code'></i>
+                            <h3>Programming</h3>
+                        </div>
+                        <div class="skills__list">
+                            <div class="skill-item" style="--delay: 1s">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 1.1s">
+                                <span class="skill-name">Python</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 82%"></div></div>
+                                <span class="skill-percent">82%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 1.2s">
+                                <span class="skill-name">SQL</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 78%"></div></div>
+                                <span class="skill-percent">78%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 1.3s">
+                                <span class="skill-name">Data Structures</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-item" style="--delay: 1.4s">
+                                <span class="skill-name">OOP Concepts</span>
+                                <div class="skill-bar"><div class="skill-progress" style="--progress: 88%"></div></div>
+                                <span class="skill-percent">88%</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!--===== Certificates =====-->
             <section class="certificate section" id="certificate">
-                <h2 class="section-title">Certificates</h2>
-
-                    <div class="certificate__container bd-grid">
-                     <div class="certificate__img">
-                        <img src="aws0.png" alt="">
-
-                        
+                <h2 class="section-title">Certifications & Achievements</h2>
+                
+                <div class="cert-stats">
+                    <div class="cert-stat-item">
+                        <div class="cert-stat-number">
+                            <i class='bx bxs-award'></i>
+                            <span class="counter" data-target="7">0</span>
+                        </div>
+                        <p>Certifications</p>
                     </div>
-                    <div class="certificate__img">
-                        <img src="aws.png" alt="">
-
-                        
+                    <div class="cert-stat-item">
+                        <div class="cert-stat-number">
+                            <i class='bx bxs-star'></i>
+                            <span class="counter" data-target="5">0</span>
+                        </div>
+                        <p>Premium Courses</p>
                     </div>
-                    <div class="certificate__img">
-                        <img src="devops.png" alt="">
-
-                        
+                    <div class="cert-stat-item">
+                        <div class="cert-stat-number">
+                            <i class='bx bxs-bookmark'></i>
+                            <span class="counter" data-target="10">0</span>
+                        </div>
+                        <p>Learning Hours</p>
                     </div>
-                    <div class="certificate__img">
-                        <img src="0001.jpg" alt="">
+                </div>
 
-                        
-                    </div>
-                    <div class="certificate__img">
-                        <img src="00001.jpg" alt="">
-
-                        
-                    </div>
-                    <div class="certificate__img">
-                        <img src="1.jpg" alt="">
-
-                        
-                    </div>
-                    <div class="certificate__img">
-                        <img src="123.png" alt="">
-
-                        
-                    </div>
-
-                    <div class="certificate__img">
-                        <img src="IMG-SRC/CLI.png" alt="">
-
-                    </div>
-
-                    </div>
-            </section>
-
-
-                <!--===== PROJECTS =====-->
-                    <section class="certificate section" id="projects">
-                        <h2 class="section-title">Projects</h2>
-
-                        <div class="certificate__container bd-grid">
-                            <div class="certificate__img">
-                                <img src="222.png" alt="AgeCalculater"> 
-                                <br> <label></label>
-
-                                <div class="certificate__link">
-                                    <a href="https://rahulrajak1710.github.io/AgeCalculater/" class="certificate__link-name">AgeCalculater</a>
-                                
-                                </div>
-                            </div>
-                            <h3>AgeCalculater Project</h3>
-                        
-                            <div class="certificate__img">
-                                <img src="143.png" alt="">
-                                <br> <label></label>
-
-
-                                <div class="certificate__link">
-                                    <a href="https://rahulrajak1710.github.io/travels/" class="certificate__link-name">Travels Website</a>
-                                </div>
-                            </div>
-                            <h3>Travels Website</h3>
-
-                            <div class="certificate__img">
-                                <img src="Images/logo.jpg" alt="">
-                                <br> <label></label>
-
-
-                                <div class="certificate__link">
-                                    <a href="" class="certificate__link-name">View details</a>
-                                </div>
+                <div class="certificate__container bd-grid">
+                    <div class="certificate-card" style="--cert-delay: 0s">
+                        <div class="cert-img-wrapper">
+                            <img src="aws0.png" alt="AWS Certificate">
+                            <div class="cert-overlay">
+                                <i class='bx bxs-check-circle'></i>
                             </div>
                         </div>
-                    </section>
+                        <div class="cert-info">
+                            <h3>AWS Solutions</h3>
+                            <p class="cert-issuer">Amazon Web Services</p>
+                        </div>
+                    </div>
 
+                    <div class="certificate-card" style="--cert-delay: 0.1s">
+                        <div class="cert-img-wrapper">
+                            <img src="aws.png" alt="AWS Advanced">
+                            <div class="cert-overlay">
+                                <i class='bx bxs-check-circle'></i>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <h3>AWS Advanced</h3>
+                            <p class="cert-issuer">Amazon Web Services</p>
+                        </div>
+                    </div>
 
+                    <div class="certificate-card" style="--cert-delay: 0.2s">
+                        <div class="cert-img-wrapper">
+                            <img src="devops.png" alt="DevOps Master">
+                            <div class="cert-overlay">
+                                <i class='bx bxs-check-circle'></i>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <h3>DevOps Mastery</h3>
+                            <p class="cert-issuer">Professional Certification</p>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" style="--cert-delay: 0.3s">
+                        <div class="cert-img-wrapper">
+                            <img src="0001.jpg" alt="Certificate 4">
+                            <div class="cert-overlay">
+                                <i class='bx bxs-check-circle'></i>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Docker Certified</h3>
+                            <p class="cert-issuer">Docker Inc.</p>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" style="--cert-delay: 0.4s">
+                        <div class="cert-img-wrapper">
+                            <img src="00001.jpg" alt="Certificate 5">
+                            <div class="cert-overlay">
+                                <i class='bx bxs-check-circle'></i>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Kubernetes Expert</h3>
+                            <p class="cert-issuer">CNCF Certified</p>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" style="--cert-delay: 0.5s">
+                        <div class="cert-img-wrapper">
+                            <img src="1.jpg" alt="Certificate 6">
+                            <div class="cert-overlay">
+                                <i class='bx bxs-check-circle'></i>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Infrastructure Expert</h3>
+                            <p class="cert-issuer">Cloud Provider</p>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" style="--cert-delay: 0.6s">
+                        <div class="cert-img-wrapper">
+                            <img src="123.png" alt="Certificate 7">
+                            <div class="cert-overlay">
+                                <i class='bx bxs-check-circle'></i>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Advanced Scripting</h3>
+                            <p class="cert-issuer">Professional Training</p>
+                        </div>
+                    </div>
+
+                    <div class="certificate-card" style="--cert-delay: 0.7s">
+                        <div class="cert-img-wrapper">
+                            <img src="IMG-SRC/CLI.png" alt="CLI Certified">
+                            <div class="cert-overlay">
+                                <i class='bx bxs-check-circle'></i>
+                            </div>
+                        </div>
+                        <div class="cert-info">
+                            <h3>CLI Mastery</h3>
+                            <p class="cert-issuer">Technical Certification</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== PROJECTS =====-->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Featured Projects</h2>
+
+                <div class="projects__container bd-grid">
+                    <div class="project-card" style="--proj-delay: 0s">
+                        <div class="project__img-wrapper">
+                            <img src="222.png" alt="Age Calculator">
+                            <div class="project__overlay">
+                                <a href="https://rahulrajak1710.github.io/AgeCalculater/" class="project__link" target="_blank">
+                                    <i class='bx bx-link-external'></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Age Calculator</h3>
+                            <p class="project__desc">A responsive web application for calculating ages with precision</p>
+                            <div class="project__tags">
+                                <span class="project__tag">JavaScript</span>
+                                <span class="project__tag">HTML/CSS</span>
+                            </div>
+                            <a href="https://rahulrajak1710.github.io/AgeCalculater/" class="project__btn" target="_blank">
+                                View Project <i class='bx bx-arrow-back' style="transform: scaleX(-1);"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" style="--proj-delay: 0.2s">
+                        <div class="project__img-wrapper">
+                            <img src="143.png" alt="Travel Website">
+                            <div class="project__overlay">
+                                <a href="https://rahulrajak1710.github.io/travels/" class="project__link" target="_blank">
+                                    <i class='bx bx-link-external'></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Travel & Tourism</h3>
+                            <p class="project__desc">Beautiful travel website showcasing destinations with smooth interactions</p>
+                            <div class="project__tags">
+                                <span class="project__tag">Frontend</span>
+                                <span class="project__tag">Responsive Design</span>
+                            </div>
+                            <a href="https://rahulrajak1710.github.io/travels/" class="project__btn" target="_blank">
+                                View Project <i class='bx bx-arrow-back' style="transform: scaleX(-1);"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" style="--proj-delay: 0.4s">
+                        <div class="project__img-wrapper">
+                            <div class="project__placeholder">
+                                <i class='bx bxs-rocket'></i>
+                            </div>
+                            <div class="project__overlay">
+                                <span class="coming-soon">Coming Soon</span>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">DevOps Pipeline</h3>
+                            <p class="project__desc">Enterprise CI/CD pipeline with Kubernetes orchestration and monitoring</p>
+                            <div class="project__tags">
+                                <span class="project__tag">Jenkins</span>
+                                <span class="project__tag">Docker</span>
+                                <span class="project__tag">K8s</span>
+                            </div>
+                            <button class="project__btn disabled">Coming Soon</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+                <h2 class="section-title">Get In Touch</h2>
 
                 <div class="contact__container bd-grid">
                     <div class="contact__info">
-                        <h3 class="contact__subtitle">EMAIL</h3>
-                        <span class="contact__text">rahulrajak1710@gmailcom</span>
+                        <div class="contact-item">
+                            <div class="contact__icon">
+                                <i class='bx bxs-envelope'></i>
+                            </div>
+                            <div>
+                                <h3 class="contact__subtitle">EMAIL</h3>
+                                <span class="contact__text">rahulrajak1710@gmail.com</span>
+                            </div>
+                        </div>
 
-                        <h3 class="contact__subtitle">PHONE</h3>
-                        <span class="contact__text">+91-9315275562</span>
+                        <div class="contact-item">
+                            <div class="contact__icon">
+                                <i class='bx bxs-phone'></i>
+                            </div>
+                            <div>
+                                <h3 class="contact__subtitle">PHONE</h3>
+                                <span class="contact__text">+91-9315275562</span>
+                            </div>
+                        </div>
 
-                        <h3 class="contact__subtitle">ADDRESS</h3>
-                        <span class="contact__text">Rajeev Colony,Ballabgarh,Faridabad,Haryana<br>121004</span>
+                        <div class="contact-item">
+                            <div class="contact__icon">
+                                <i class='bx bxs-map'></i>
+                            </div>
+                            <div>
+                                <h3 class="contact__subtitle">ADDRESS</h3>
+                                <span class="contact__text">Rajeev Colony, Ballabgarh<br>Faridabad, Haryana 121004</span>
+                            </div>
+                        </div>
                     </div>
 
                     <form action="" class="contact__form">
                         <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
+                            <input type="text" placeholder="Your Name" class="contact__input">
+                            <input type="email" placeholder="Your Email" class="contact__input">
                         </div>
 
-                        <textarea name="feedback" id="feedback" cols="0" rows="10" class="contact__input"></textarea>
+                        <textarea name="message" placeholder="Your Message" cols="0" rows="10" class="contact__input"></textarea>
 
-                        <input type="submit" value="Send" class="contact__button">
+                        <button type="submit" class="contact__button">Send Message</button>
                     </form>
                 </div>
             </section>
@@ -283,8 +526,8 @@
         <footer class="footer section">
             <div class="footer__container bd-grid">
                 <div class="footer__data">
-                    <h2 class="footer__title">Rahul</h2>
-                    <p class="footer__text">I'm Rahul and this is my Portfolio website</p>
+                    <h2 class="footer__title">Rahul Rajak</h2>
+                    <p class="footer__text">DevOps Engineer & Software Developer</p>
                     <a href="mailto:rahulrajak1710@gmail.com" class="footer__social"><i class='bx bx-mail-send' ></i></a>
                 </div>
 
@@ -294,21 +537,19 @@
                         <li><a href="#home" class="footer__link">Home</a></li>
                         <li><a href="#about" class="footer__link">About</a></li>
                         <li><a href="#skills" class="footer__link">Skills</a></li>
-                        <li><a href="#certificate" class="footer__link">certificate</a></li>
+                        <li><a href="#certificate" class="footer__link">Certificates</a></li>
                         <li><a href="#projects" class="footer__link">Projects</a></li>
-                        <li><a href="#Contact" class="footer__link">Contact</a></li>
+                        <li><a href="#contact" class="footer__link">Contact</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer__data">
                     <h2 class="footer__title">FOLLOW</h2>
-                    <a href="linkedin.com/in/rahul-rajak-790b96193" class="footer__social icon1"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://www.linkedin.com/in/rahul-rajak-790b96193/" class="footer__social icon1"><i class='bx bxl-linkedin' ></i></a>
                     <a href="https://www.instagram.com/rajak8444/" class="footer__social icon2"><i class='bx bxl-instagram' ></i></a>
                     <a href="https://github.com/Rahulrajak1710" class="footer__social icon3"><i class='bx bxl-github' ></i></a>
-                    <p>&#169; 2021 copyright all right reserved</p>
+                    <p>&#169; 2024 Rahul Rajak. All rights reserved.</p>
                 </div>
-
-
             </div>
         </footer>
 
