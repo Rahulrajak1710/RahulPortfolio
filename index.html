@@ -41,10 +41,62 @@
         <main class="l-main">
             <!--===== HOME =====-->
             <section class="home" id="home">
+                <div class="home__background">
+                    <div class="home__grid"></div>
+                </div>
+                
                 <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>Hello,</span><span><br>There.</span></h1>
+                    <div class="home__content">
+                        <div class="home__title-wrapper">
+                            <h1 class="home__title">DevOps <span class="home__highlight">Engineer</span></h1>
+                            <p class="home__subtitle">Building scalable infrastructure & automating deployment workflows</p>
+                        </div>
 
-                    <img src="/IMG-SRC/jocelyn-.jpg" alt="" class="home__img">
+                        <div class="home__stack">
+                            <p class="home__stack-label">Tech Stack:</p>
+                            <div class="home__tech-badges">
+                                <span class="home__badge">Docker</span>
+                                <span class="home__badge">Kubernetes</span>
+                                <span class="home__badge">AWS</span>
+                                <span class="home__badge">Jenkins</span>
+                                <span class="home__badge">Terraform</span>
+                                <span class="home__badge">Linux</span>
+                            </div>
+                        </div>
+
+                        <a href="#projects" class="home__cta">View My Projects <i class='bx bx-chevron-down'></i></a>
+                    </div>
+
+                    <div class="home__projects-preview">
+                        <div class="devops-project-card" style="--delay: 0s">
+                            <div class="project-card__header">Docker</div>
+                            <div class="project-card__icon"><i class='bx bxl-docker'></i></div>
+                            <div class="project-card__bar"></div>
+                        </div>
+
+                        <div class="devops-project-card" style="--delay: 0.2s">
+                            <div class="project-card__header">Kubernetes</div>
+                            <div class="project-card__icon"><i class='bx bxs-cube'></i></div>
+                            <div class="project-card__bar"></div>
+                        </div>
+
+                        <div class="devops-project-card" style="--delay: 0.4s">
+                            <div class="project-card__header">CI/CD Pipeline</div>
+                            <div class="project-card__icon"><i class='bx bx-git-branch'></i></div>
+                            <div class="project-card__bar"></div>
+                        </div>
+
+                        <div class="devops-project-card" style="--delay: 0.6s">
+                            <div class="project-card__header">Cloud & Infra</div>
+                            <div class="project-card__icon"><i class='bx bxs-cloud'></i></div>
+                            <div class="project-card__bar"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <span>Scroll to explore</span>
+                    <i class='bx bx-chevron-down'></i>
                 </div>
             </section>
             
@@ -60,7 +112,7 @@
                     <div>
                         <h2 class="about__subtitle">Rahul Rajak</h2>
                         
-                        <p class="about__text"></p>I'm Rahul, transitioning from a year of software engineering to DevOps. With a strong foundation in coding and a passion for streamlining processes, I'm eager to optimize deployment workflows and enhance team collaboration. Excited to contribute my skills and learn from this dynamic community.
+                        <p class="about__text">I'm Rahul, transitioning from a year of software engineering to DevOps. With a strong foundation in coding and a passion for streamlining processes, I'm eager to optimize deployment workflows and enhance team collaboration. Excited to contribute my skills and learn from this dynamic community.
                         </p>
 
                         <div class="about__social">
@@ -110,7 +162,12 @@
             <section class="certificate section" id="certificate">
                 <h2 class="section-title">Certificates</h2>
 
-                <div class="certificate__container bd-grid">
+                    <div class="certificate__container bd-grid">
+                     <div class="certificate__img">
+                        <img src="aws0.png" alt="">
+
+                        
+                    </div>
                     <div class="certificate__img">
                         <img src="aws.png" alt="">
 
